@@ -105,9 +105,9 @@ Admins can configure new processes and tasks using **Custom Metadata**:
 
 > ⚠️ Please replace with your real credentials before submitting.
 
-- **Username**: `admin@taskdemo.com`
-- **Password**: `YourDemoPassword123`
-- URL: [https://login.salesforce.com](https://login.salesforce.com)
+- **Username**: `publicuser2025@enpal.com`
+- **Password**: `SalesforceEnpal2025!`
+- URL: https://enpal4-dev-ed.develop.lightning.force.com/lightning/page/home
 
 Sample configuration is already set up with:
 - Process: `Onboarding`
