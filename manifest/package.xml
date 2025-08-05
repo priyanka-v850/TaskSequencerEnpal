@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <!-- Apex Classes -->
+    <types>
+        <members>TaskService</members>
+        <members>TaskTriggerHandler</members>
+        <members>OpportunityTriggerHandler</members>
+        <members>Test_TaskService</members>
+        <members>Test_TaskTriggerHandler</members>
+        <members>Test_OpportunityTriggerHandler</members>
+        <name>ApexClass</name>
+    </types>
+
+    <!-- Apex Triggers -->
+    <types>
+        <members>OpportunityTrigger</members>
+        <members>OpportunityTaskTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+
+    <!-- Custom Metadata Types -->
+    <types>
+        <members>Task_Process__mdt</members>
+        <members>Task_Definition__mdt</members>
+        <name>CustomMetadata</name>
+    </types>
+
+    <!-- Custom Metadata Records -->
+    <types>
+        <members>Task_Process__mdt.Onboarding_Process</members>
+        <members>Task_Definition__mdt.Onboarding_Step1</members>
+        <members>Task_Definition__mdt.Onboarding_Step2</members>
+        <name>CustomMetadata</name>
+    </types>
+
+    <!-- Custom Objects -->
+    <types>
+        <members>Opportunity_Task__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <!-- Custom Fields -->
+    <types>
+        <members>Opportunity.Process__c</members>
+        <name>CustomField</name>
+    </types>
+
+    <!-- API Version -->
+    <version>64.0</version>
+</Package>
